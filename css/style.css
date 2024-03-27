@@ -4,21 +4,43 @@ body {
     background-color: #FFFFFF;
 }
 
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+address {
+    font-style: normal;
+}
+
 .header {
     background: #fff;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /* ------------header------------- * */
 
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -87,6 +109,8 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .btn {
@@ -147,6 +171,9 @@ font-style: normal;
     background-color: #FFFFFF;
 }
 
+.team-item {
+    background-color: #FFFFFF;
+}
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -165,6 +192,7 @@ font-style: normal;
     color: #434455;
 }
 
+
 /* -------------------------------------------- */
 
 
@@ -173,9 +201,6 @@ font-style: normal;
 
 
 
-.team-item {
-    background-color:#FFFFFF;
-}
 
 .port-title {
     font-weight: 700;
