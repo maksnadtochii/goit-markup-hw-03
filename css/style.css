@@ -242,7 +242,7 @@ margin-left: auto;
 .team-list {
     background-color: #FFFFFF;
     display: flex;
-    gap: 22px;
+    gap: 24px;
 }
 
 .team-item {
@@ -251,6 +251,10 @@ margin-left: auto;
         border-radius: 0 0 4px 4px;
 }
     
+.team-opys {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .team-name {
     font-weight: 500;
