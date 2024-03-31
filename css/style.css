@@ -224,6 +224,7 @@ margin-left: auto;
 
 .team {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -234,15 +235,23 @@ margin-left: auto;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
+
 
 .team-list {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 22px;
 }
 
 .team-item {
-    background-color: #FFFFFF;
+    background-color: #fff;
+        width: calc((100% - 3 * 24px) / 4);
+        border-radius: 0 0 4px 4px;
 }
+    
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -261,6 +270,9 @@ margin-left: auto;
     color: #434455;
 }
 
+.team-img {
+
+}
 
 /* -------------------------------------------- */
 
