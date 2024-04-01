@@ -18,7 +18,9 @@ ul,ol {
     
 }
 
- 
+ img {
+    display: block;
+ }
 
 a {
     text-decoration: none;
