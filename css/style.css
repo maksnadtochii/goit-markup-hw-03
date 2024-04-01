@@ -46,10 +46,7 @@ align-items: center;
 }
 /* ------------header------------- * */
 
-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 
 .header-title {
 border-bottom: 1px solid #e7e9fc;
@@ -242,7 +239,6 @@ margin-left: auto;
 
 
 .team-list {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
 }
@@ -311,7 +307,7 @@ margin-left: auto;
 }
 
 .port-item {
-    width: ((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .name-app {
@@ -373,4 +369,5 @@ margin-left: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
